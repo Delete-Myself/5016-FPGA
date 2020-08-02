@@ -1,0 +1,338 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 26464
+License: Customer
+
+Current time: 	Sun Aug 02 13:10:17 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 1920x1080
+Screen resolution (DPI): 120
+Available screens: 1
+Available disk space: 34 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Vivado2018/Vivado2018/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/Vivado2018/Vivado2018/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	29754
+User home directory: C:/Users/29754
+User working directory: D:/Vivado2018/Vivado2018Document/project_1
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Vivado2018/Vivado2018/Vivado
+HDI_APPROOT: D:/Vivado2018/Vivado2018/Vivado/2018.3
+RDI_DATADIR: D:/Vivado2018/Vivado2018/Vivado/2018.3/data
+RDI_BINDIR: D:/Vivado2018/Vivado2018/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/29754/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/29754/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/29754/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/Vivado2018/Vivado2018/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Vivado2018/Vivado2018Document/project_1/vivado.log
+Vivado journal file location: 	D:/Vivado2018/Vivado2018Document/project_1/vivado.jou
+Engine tmp dir: 	D:/Vivado2018/Vivado2018Document/project_1/.Xil/Vivado-26464-Dear
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Vivado2018/Vivado2018/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: D:/Vivado2018/Vivado2018/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Vivado2018/Vivado2018/Vivado/2018.3
+XILINX_SDK: D:/Vivado2018/Vivado2018/SDK/2018.3
+XILINX_VIVADO: D:/Vivado2018/Vivado2018/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/Vivado2018/Vivado2018/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 628 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 89 MB (+90541kb) [00:00:08]
+// [Engine Memory]: 561 MB (+436550kb) [00:00:08]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: D:\Vivado2018\Vivado2018Document\project_1\project_1.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Vivado2018/Vivado2018Document/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 646 MB. GUI used memory: 49 MB. Current time: 8/2/20, 1:10:19 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 109 MB (+16202kb) [00:00:16]
+// [Engine Memory]: 749 MB (+167459kb) [00:00:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  3404 ms.
+// Tcl Message: open_project D:/Vivado2018/Vivado2018Document/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vivado2018/Vivado2018Document/Camera_Demo'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado2018/Vivado2018/Vivado/2018.3/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 802.199 ; gain = 195.105 
+// Project name: project_1; location: D:/Vivado2018/Vivado2018Document/project_1; part: xc7s15ftgb196-1
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (Lab_1.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA (Lab_1.v)]", 1, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA (Lab_1.v)]", 1, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA (Lab_1.v)]", 1, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA (Lab_1.v)]", 1, false); // B (D, cp)
+selectCodeEditor("Lab_1.v", 439, 226); // cl (w, cp)
+typeControlKey((HResource) null, "Lab_1.v", 'c'); // cl (w, cp)
+// Elapsed time: 190 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (Q, cp)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (Q, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 26, false); // u (Q, cp)
+// bx (cp):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7s15ftgb196-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 894 MB. GUI used memory: 55 MB. Current time: 8/2/20, 1:13:50 PM CST
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 55 MB. Current time: 8/2/20, 1:13:52 PM CST
+// [Engine Memory]: 1,024 MB (+249148kb) [00:03:46]
+// [Engine Memory]: 1,076 MB (+1513kb) [00:03:46]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [GUI Memory]: 130 MB (+16707kb) [00:03:47]
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  3028 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2018.3 INFO: [Device 21-403] Loading part xc7s15ftgb196-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [D:/Vivado2018/Vivado2018Document/project_1/project_1.srcs/constrs_1/new/system.xdc] 
+// Tcl Message: Finished Parsing XDC File [D:/Vivado2018/Vivado2018Document/project_1/project_1.srcs/constrs_1/new/system.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1033.684 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 1126.188 ; gain = 321.078 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// S (cp): Critical Messages: addNotify
+// Elapsed time: 11 seconds
+dismissDialog("Open Synthesized Design"); // bx (cp)
+// [Engine Memory]: 1,131 MB (+1267kb) [00:03:51]
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (S)
+dismissDialog("Critical Messages"); // S (cp)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G (aF, cp)
+// RouteApi::initDelayMediator elapsed time: 10.9s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// HMemoryUtils.trashcanNow. Engine heap size: 1,454 MB. GUI used memory: 77 MB. Current time: 8/2/20, 1:14:10 PM CST
+// [Engine Memory]: 1,455 MB (+280514kb) [00:04:17]
+// Elapsed time: 32 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k (j, cp)
+// Device view-level: 0.3
+// Device view-level: 0.6
+// Device view-level: 0.3
+// HMemoryUtils.trashcanNow. Engine heap size: 1,486 MB. GUI used memory: 96 MB. Current time: 8/2/20, 1:14:37 PM CST
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // az (f, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // af (cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cp): Run Synthesis: addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (C, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (cp)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// Tcl Message: [Sun Aug  2 13:14:44 2020] Launched synth_1... Run output will be captured here: D:/Vivado2018/Vivado2018Document/project_1/project_1.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// [GUI Memory]: 141 MB (+4522kb) [00:04:38]
+closeView(PAResourceOtoP.PAViews_DEVICE, "Device"); // U
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectCodeEditor("Lab_1.v", 623, 199); // cl (w, cp)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (cp): Synthesis Completed: addNotify
+// Elapsed time: 46 seconds
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g (Q, ah): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 3 
+// Tcl Message: [Sun Aug  2 13:15:33 2020] Launched impl_1... Run output will be captured here: D:/Vivado2018/Vivado2018Document/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 64 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// g (cp): Close Design: addNotify
+selectButton(PAResourceAtoD.ClosePlanner_YES, "Yes"); // a (g)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,507 MB. GUI used memory: 71 MB. Current time: 8/2/20, 1:16:40 PM CST
+// Engine heap size: 1,507 MB. GUI used memory: 72 MB. Current time: 8/2/20, 1:16:40 PM CST
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// bx (cp):  Open Implemented Design : addNotify
+// Tcl Message: close_design 
+dismissDialog("Close Design"); // g (cp)
+// Tcl Message: open_run impl_1 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (bx)
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,541 MB. GUI used memory: 61 MB. Current time: 8/2/20, 1:16:43 PM CST
+// [Engine Memory]: 1,541 MB (+13526kb) [00:06:36]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1700 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2018.3 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Constraints 18-4398] Generator version for shapeDB does not match. shapeDB will be regenerated. INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1601.984 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1601.984 ; gain = 0.000 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1601.984 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// [Engine Memory]: 1,619 MB (+996kb) [00:06:39]
+// TclEventType: POWER_UPDATED
+// WARNING: HEventQueue.dispatchEvent() is taking  1161 ms.
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [Engine Memory]: 1,702 MB (+2308kb) [00:06:42]
+// Device view-level: 0.6
+// Device select: 'Tile - CLBLM_R_X23Y25'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 1622, 770, 1210, 520); // U (k, cp)
+// PAPropertyPanels.initPanels (Tile: CLBLM_R_X23Y25) elapsed time: 0.2s
+// Device view-level: 0.9
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 120329, 57123); // D (I, cp)
+// [GUI Memory]: 149 MB (+1513kb) [00:06:42]
+// Device view-level: 1.5
+dismissDialog("Open Implemented Design"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,710 MB. GUI used memory: 89 MB. Current time: 8/2/20, 1:16:50 PM CST
+// Device view-level: 1.2
+// Device view-level: 0.9
+// HMemoryUtils.trashcanNow. Engine heap size: 1,711 MB. GUI used memory: 115 MB. Current time: 8/2/20, 1:16:53 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,711 MB. GUI used memory: 90 MB. Current time: 8/2/20, 1:16:54 PM CST
+// Device view-level: 0.3
+// Device view-level: 0.0
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 43, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// Tcl Message: [Sun Aug  2 13:16:58 2020] Launched impl_1... Run output will be captured here: D:/Vivado2018/Vivado2018Document/project_1/project_1.runs/impl_1/runme.log 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,723 MB. GUI used memory: 90 MB. Current time: 8/2/20, 1:17:00 PM CST
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Power", 7); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Methodology", 6); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "DRC", 5); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aI (aF, cp)
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 88 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+// aI (cp): Feedback Request: addNotify
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+selectButton(PAResourceTtoZ.TouchpointSurveyDialog_YES, "Yes"); // a (aI)
+dismissDialog("Feedback Request"); // aI (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,731 MB. GUI used memory: 89 MB. Current time: 8/2/20, 1:18:40 PM CST
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aI (aF, cp)
+// Elapsed time: 142 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Lab_1.v", 2); // k (j, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,732 MB. GUI used memory: 89 MB. Current time: 8/2/20, 1:48:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,732 MB. GUI used memory: 82 MB. Current time: 8/2/20, 2:18:40 PM CST
